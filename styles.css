@@ -1,0 +1,35 @@
+body {
+    background-color: #F1E9D8;
+    font-family: "Allerta Stencil";
+    font-size: 24px;
+    font-weight: 700;
+}
+.main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap:10px;
+}
+.btn {
+    font-weight:700;
+    font-size: 20px;
+    padding: 20px;
+    border: 4px solid #F1E9D8;
+    background-color: #141C83;
+    color: #F1E9D8;
+    border-radius:10px;
+}
+.container {
+    display: flex;
+    flex-wrap:wrap;
+    background-color: white;
+    width:500px;
+    height:500px;
+
+}
+.grid {
+    padding:0;
+    display:inline-block;
+    border: 1px solid black;
+}
